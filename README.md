@@ -1,6 +1,6 @@
 # mernbackend
 # cors is express middleware
-few helfull commands
+few helpful commands
 
 
 mkdir backend
