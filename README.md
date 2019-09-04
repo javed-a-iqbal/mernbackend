@@ -22,7 +22,8 @@ install MongoDB community edition and statrt it by typing
   
  type these commands to create database
   use todos
- todos datbase is now existing.
+  
+ todos database is now existing.
   
   
   
