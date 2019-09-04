@@ -26,7 +26,7 @@ install MongoDB community edition and statrt it by typing
  todos database is now existing.
   
   run server  using nodemon server
-  
+  Test endpoints using Postman
   launch postman 
   
   and send a Post request to add a 'toDo' item.
@@ -50,7 +50,24 @@ install MongoDB community edition and statrt it by typing
   
   localhost:4000/todos
  
+ Any specific todos
+   localhost:4000/todos/8bse45334d34f675556   (copy id of your own record here)
+   if id will be wrong you will get null.
+   
+   for update 
+   localhost:4000/todos/update/8bse45334d34f675556
+   
+   chose raw and JSON (application/json)
+   
+   type in body
+   {
+  "todo_description":"This is my first todo",
+  "todo_responsible": "Mark",
+  "todo_priorty":High",
+  "todo_completed":true
+  }
   
+  and send 
   
   
  
