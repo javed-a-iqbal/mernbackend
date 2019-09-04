@@ -25,6 +25,31 @@ install MongoDB community edition and statrt it by typing
   
  todos database is now existing.
   
+  run server  usinf nodemon server
+  
+  lunch postman 
+  
+  and send a Post reuest to add a 'toDo' item.
+  
+  in url of postman plugin type 'localhost:4000/add
+  
+  select raws and choose JSON (application/json) from dropdown
+  
+  past the following in text area
+  
+  {
+  "todo_description":"This is my first todo",
+  "todo_responsible": "Mark",
+  "todo_priorty":High",
+  "todo_completed":false
+  }
+  
+  and then click on send
+  
+  
+  
+  }
+  
   
   
   
