@@ -47,9 +47,7 @@ install MongoDB community edition and statrt it by typing
   and then click on send
   
   
-  
-  }
-  
+ 
   
   
   
