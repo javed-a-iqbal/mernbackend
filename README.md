@@ -1,4 +1,4 @@
-# mernbackend
+# mernbackend   Building A React CRUD Application
 # cors is express middleware
 few helpful commands
 
@@ -25,11 +25,11 @@ install MongoDB community edition and statrt it by typing
   
  todos database is now existing.
   
-  run server  usinf nodemon server
+  run server  using nodemon server
   
-  lunch postman 
+  launch postman 
   
-  and send a Post reuest to add a 'toDo' item.
+  and send a Post request to add a 'toDo' item.
   
   in url of postman plugin type 'localhost:4000/add
   
@@ -44,9 +44,11 @@ install MongoDB community edition and statrt it by typing
   "todo_completed":false
   }
   
-  and then click on send
+  and then click on send, you can add number of todos here.
   
+  check available todos list.
   
+  localhost:4000/todos
  
   
   
